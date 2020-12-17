@@ -1,8 +1,6 @@
 Alexa Nelson
-The biggest challenge I encountered was formatting the words correctly for part two.
-When I got to part 2's generate function, I didn't realize that the key i generated
-for the next random word had an extra space in front of it, and when using a find()
-function on the map, it would fail (because it wasn't the right string). Beyond that,
-the project was relatively fun and easy, with the only thing I disliked about it
-being that the initial instructions were a little hard to follow. I spent about 12
-or more hours on this assignment. 
+This program uses the Markov model to generate "random" text from the given text files. 
+There are some example text files given, but any text file will work. The order for the
+Markov can be chosen by the user with the given assumption that the order will not be 
+greater than the amount of character or words in the text file chosen. The portion of 
+the code that was coded by me is the code in map_model.cpp and word_model.cpp.
